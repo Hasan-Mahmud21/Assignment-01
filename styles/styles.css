@@ -144,5 +144,127 @@ div ul li{
     list-style: none;
 }
 
+.testimonials{
+    margin: 137px 150px 0 150px;
+    text-align: center;
+}
 
+.testimonials-title {
+
+}
+.testimonials-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 24px 24px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    
+}
+
+.review {
+    font-size: 24px;
+    font-weight: bold;
+}
+.comment{
+    font-size: 16px;
+    font-weight: regular;
+    margin-bottom: 15px;
+}
+
+.reviewer {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
+
+.reviewer-avatar{
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover;
+}
+.reviewer,.form{
+    display: flex; 
+    gap: 10px;
+    
+}
+.reviewer input {
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 13px; 
+
+}
+.action-container {
+    margin: 100px 150px 0 150px;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.action-new {
+    padding: 71px 312px 0px 312px;
+    text-align: center;
+}
+
+.action-title {
+    font-size: 2.5em;
+    color: #252432;
+    margin: 0;
+    font-weight: 800;
+}
+
+#desc {
+    margin: 10px 14.5px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1em;
+    color: #666;
+    font-style: italic;
+}
+
+.stay-btn {
+    margin: 20px 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.stay-btn:hover {
+    background-color: #3D3ACC;
+}
+
+.wc-big {
+    max-width: 100%; 
+    height: 365px; 
+    width: auto; 
+    display: block; 
+    margin: 40px auto 0; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(90deg, #1a2a6c, #b21f1f, #fdbb2d); /* Gradient background */
+    position: relative;
+}
+
+.wc-big img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 20px; 
+}
 
